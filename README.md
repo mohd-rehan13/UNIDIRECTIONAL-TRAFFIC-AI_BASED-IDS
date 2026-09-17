@@ -1,4 +1,4 @@
-# Unidirectional Traffic AI-Based Intrusion Detection System
+# mohd-rehan13's Unidirectional Traffic AI-Based IDS
 
 > **A Full-Stack Cybersecurity Academic Project** using Machine Learning (Scikit-Learn), Python Flask REST API, React.js (Vite), and SQLite.
 

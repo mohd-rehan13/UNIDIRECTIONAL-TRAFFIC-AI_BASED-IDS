@@ -19,10 +19,10 @@ const About = () => {
           <ShieldCheck size={32} color="var(--accent-cyan)" />
           <div>
             <h1 style={{ fontSize: '1.5rem', fontWeight: '800' }}>
-              Unidirectional Traffic AI-Based IDS - Fork by mohd-rehan13
+              mohd-rehan13's Unidirectional Traffic AI-Based IDS
             </h1>
             <div style={{ color: 'var(--accent-cyan)', fontSize: '0.85rem', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '1px' }}>
-              Derivative Academic Project
+              Personal Cybersecurity Project
             </div>
           </div>
         </div>

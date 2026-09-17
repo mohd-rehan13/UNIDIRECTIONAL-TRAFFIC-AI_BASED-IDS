@@ -127,7 +127,7 @@ const Dashboard = () => {
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '1rem' }}>
           <div>
             <h1 style={{ fontSize: '1.6rem', fontWeight: '800', marginBottom: '0.5rem' }}>
-              AI-Based Detection of Cyber Threats in Unidirectional IP Traffic
+              mohd-rehan13's AI-Based Detection of Cyber Threats in Unidirectional IP Traffic
             </h1>
             <p style={{ color: 'var(--text-secondary)', maxWidth: '900px' }}>
               An AI-powered system for detecting malicious network traffic using machine learning algorithms. 
