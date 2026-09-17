@@ -1,0 +1,86 @@
+# Node.js dependencies
+frontend/node_modules/
+frontend/package-lock.json
+frontend/yarn.lock
+frontend/pnpm-lock.yaml
+frontend/.npmrc
+frontend/.yarnrc
+frontend/.pnp
+
+# Python dependencies
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+backend/.venv/
+backend/ENV/
+backend/env/
+backend/venv/
+backend/.env
+backend/.venv*/
+backend/env*/
+backend/venv*/
+backend/.python-version
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+backend/logs/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# Build outputs
+frontend/dist/
+frontend/build/
+frontend/.vite/
+frontend/cache/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Misc
+.cache
+.mypy_cache
+.coverage
+htmlcov/
+.tox
+.nox
+.hypothesis
+.pytest_cache
+*.egg-info/
+*/.egg-info
+*/*.egg-info
+
+# Database - we're keeping the SQLite database in the repo as it's part of the project
+# but commenting this out in case we want to ignore local database files
+# database/*.db
+# database/*.sqlite
+# database/*.sqlite3
+
+# OSINT tool outputs (if any)
+output/
+exports/
+*.csv
+*.json
