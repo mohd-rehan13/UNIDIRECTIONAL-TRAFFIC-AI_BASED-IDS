@@ -1,8 +1,46 @@
 # mohd-rehan13's Unidirectional Traffic AI-Based IDS
 
+![GitHub repo size](https://img.shields.io/github/repo-size/mohd-rehan13/UNIDIRECTIONAL-TRAFFIC-AI_BASED-IDS)
+![GitHub stars](https://img.shields.io/github/stars/mohd-rehan13/UNIDIRECTIONAL-TRAFFIC-AI_BASED-IDS?style=social)
+![GitHub forks](https://img.shields.io/github/forks/mohd-rehan13/UNIDIRECTIONAL-TRAFFIC-AI_BASED-IDS?style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/mohd-rehan13/UNIDIRECTIONAL-TRAFFIC-AI_BASED-IDS)
+![GitHub issues](https://img.shields.io/github/issues/mohd-rehan13/UNIDIRECTIONAL-TRAFFIC-AI_BASED-IDS)
+![GitHub license](https://img.shields.io/github/license/mohd-rehan13/UNIDIRECTIONAL-TRAFFIC-AI_BASED-IDS)
+
 > **A Full-Stack Cybersecurity Academic Project** created collaboratively by mohd-rehan13 and a colleague using Machine Learning (Scikit-Learn), Python Flask REST API, React.js (Vite), and SQLite.
 
-> **Created and maintained by** <a href="https://github.com/mohd-rehan13" target="_blank">mohd-rehan13</a> in memory of their collaborator.
+> **Created and maintained by** [mohd-rehan13](https://github.com/mohd-rehan13) in memory of their collaborator.
+
+<div align="center">
+  <h2>🛡️ AI-Powered Network Traffic Analysis System</h2>
+  <p><em>Detecting cyber threats in unidirectional IP traffic using machine learning</em></p>
+</div>
+
+---
+
+## 📸 Screenshots & Demo
+
+<div align="center">
+  
+### Main Dashboard
+![Dashboard Screenshot](screenshots/dashboard.png)
+*The main cybersecurity analytics dashboard showing real-time statistics and threat detection metrics*
+
+### Threat Prediction Interface
+![Prediction Interface](screenshots/prediction.png)
+*Real-time threat prediction form with traffic flow analysis*
+
+### Model Performance
+![Model Performance](screenshots/performance.png)
+*Detailed model accuracy metrics and algorithm comparison*
+
+### Audit History
+![Audit History](screenshots/history.png)
+*Complete prediction history with search, filtering, and CSV export*
+
+*(Replace the placeholder images above with actual screenshots by running the project and capturing the UI)*
+
+</div>
 
 ---
 
@@ -12,19 +50,20 @@ Traditional Network Intrusion Detection Systems (NIDS) heavily rely on predefine
 
 This project presents an **AI-powered cybersecurity traffic analysis platform** that inspects **unidirectional IP network flow characteristics** (such as flow duration, packet rates, byte rates, packet size statistics, and TCP flags) to accurately classify traffic as **NORMAL** or **MALICIOUS/THREAT**.
 
-### Key Features
-- **Unidirectional Flow Classification**: Evaluates statistical flow properties without inspecting private packet payload contents.
-- **Multi-Algorithm ML Benchmarking**: Evaluates and compares 4 machine learning models:
-  1. **Random Forest Classifier** (Primary Model)
-  2. **Decision Tree Classifier**
-  3. **Logistic Regression**
-  4. **Support Vector Machine (SVM)**
-- **Automated Model Selection**: Auto-selects the optimal classifier prioritizing **F1-Score** (critical for imbalanced network traffic datasets).
-- **Interactive Web Dashboard**: Built with React & Recharts featuring live traffic ratios, threat subclass breakdowns, recent prediction logs, and model accuracy gauges.
-- **Real-Time Threat Prediction**: Web form supporting presets (Normal HTTP, DDoS SYN Flood, Port Scanning Sweep, SSH Brute Force) with confidence percentages and risk levels (`LOW`, `MEDIUM`, `HIGH`, `CRITICAL`).
-- **Explainable AI (XAI)**: Visualizes feature importances to reveal key contributing network parameters behind predictions.
-- **Dataset Preprocessing & Upload**: Upload custom CSV traffic datasets, clean duplicates, impute missing values, and trigger model retraining.
-- **Audit History & CSV Export**: SQLite database tracking all prediction logs with pagination, filtering, search, and downloadable CSV export.
+### 🔑 Key Features
+
+- **🎯 Unidirectional Flow Classification**: Evaluates statistical flow properties without inspecting private packet payload contents
+- **⚙️ Multi-Algorithm ML Benchmarking**: Compares 4 machine learning models:
+  - 1. **Random Forest Classifier** (Primary Model)
+  - 2. **Decision Tree Classifier**
+  - 3. **Logistic Regression**
+  - 4. **Support Vector Machine (SVM)**
+- **🤖 Automated Model Selection**: Auto-selects the optimal classifier prioritizing **F1-Score** (critical for imbalanced network traffic datasets)
+- **📊 Interactive Web Dashboard**: Built with React & Recharts featuring live traffic ratios, threat subclass breakdowns, recent prediction logs, and model accuracy gauges
+- **🚨 Real-Time Threat Prediction**: Web form supporting presets (Normal HTTP, DDoS SYN Flood, Port Scanning Sweep, SSH Brute Force) with confidence percentages and risk levels (`LOW`, `MEDIUM`, `HIGH`, `CRITICAL`)
+- **🔍 Explainable AI (XAI)**: Visualizes feature importances to reveal key contributing network parameters behind predictions
+- **📁 Dataset Preprocessing & Upload**: Upload custom CSV traffic datasets, clean duplicates, impute missing values, and trigger model retraining
+- **📋 Audit History & CSV Export**: SQLite database tracking all prediction logs with pagination, filtering, search, and downloadable CSV export
 
 ---
 
@@ -73,6 +112,7 @@ UNIDIRECTIONAL-TRAFFIC-AI_BASED-IDS/
 │   └── cyber_threat.db             # SQLite Database File
 │
 ├── README.md                       # Complete Project Documentation
+├── screenshots/                    # UI Screenshots (add your captured screenshots here)
 └── .gitignore                      # Git Exclusion Rules
 ```
 
@@ -84,8 +124,6 @@ UNIDIRECTIONAL-TRAFFIC-AI_BASED-IDS/
 ```powershell
 cd UNIDIRECTIONAL-TRAFFIC-AI_BASED-IDS
 ```
-
----
 
 ### Step 2: Backend Setup & Server Execution
 
@@ -119,8 +157,6 @@ cd UNIDIRECTIONAL-TRAFFIC-AI_BASED-IDS
    python app.py
    ```
    *The backend server will run on `http://localhost:5000`.*
-
----
 
 ### Step 3: Frontend Setup & Server Execution
 
@@ -243,3 +279,13 @@ This application is designed **strictly for defensive network traffic analysis, 
 - Synthetic demonstration data is provided for testing and is clearly identified as demonstration data.
 - The system does not contain functionality for exploiting hosts, stealing credentials, launching DDoS attacks, deploying malware, or performing unauthorized network scanning.
 - Prediction outputs represent AI probabilistic predictions and should be correlated with comprehensive SIEM/SOC telemetry.
+
+---
+
+## 🙏 Acknowledgments
+
+This project builds upon collaborative work and is maintained in honor of a valued colleague and collaborator. Special thanks to the open-source community for the technologies that made this project possible.
+
+---
+
+**⭐ If you find this project helpful, please consider giving it a star on GitHub!**
