@@ -9,7 +9,7 @@
 
 > **A Full-Stack Cybersecurity Academic Project** created collaboratively by mohd-rehan13 and a colleague using Machine Learning (Scikit-Learn), Python Flask REST API, React.js (Vite), and SQLite.
 
-> **Created and maintained by** [mohd-rehan13](https://github.com/mohd-rehan13) in memory of their collaborator.
+> **Created and maintained by** [mohd-rehan13](https://github.com/mohd-rehan13)
 
 <div align="center">
   <h2>🛡️ AI-Powered Network Traffic Analysis System</h2>
@@ -279,12 +279,6 @@ This application is designed **strictly for defensive network traffic analysis, 
 - Synthetic demonstration data is provided for testing and is clearly identified as demonstration data.
 - The system does not contain functionality for exploiting hosts, stealing credentials, launching DDoS attacks, deploying malware, or performing unauthorized network scanning.
 - Prediction outputs represent AI probabilistic predictions and should be correlated with comprehensive SIEM/SOC telemetry.
-
----
-
-## 🙏 Acknowledgments
-
-This project builds upon collaborative work and is maintained in honor of a valued colleague and collaborator. Special thanks to the open-source community for the technologies that made this project possible.
 
 ---
 
