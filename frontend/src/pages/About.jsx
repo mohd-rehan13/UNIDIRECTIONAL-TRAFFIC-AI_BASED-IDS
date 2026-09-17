@@ -34,10 +34,10 @@ const About = () => {
           <Lock size={20} color="var(--accent-cyan)" />
           <div>
             <p style={{ margin: '0 0 0.25rem 0', fontWeight: '600', color: 'var(--text-primary)' }}>
-              Attribution
+              Project Background
             </p>
             <p style={{ margin: '0', fontSize: '0.9rem', color: 'var(--text-secondary)', lineHeight: '1.5' }}>
-              Forked and maintained by <a href="https://github.com/mohd-rehan13" target="_blank" style={{ color: 'var(--accent-cyan)', textDecoration: 'underline' }}>mohd-rehan13</a> based on <a href="https://github.com/rohit2944/cyber-threat-detection" target="_blank" style={{ color: 'var(--accent-cyan)', textDecoration: 'underline' }}>rohit2944/cyber-threat-detection</a> (original, all rights reserved).
+              This project was created collaboratively by mohd-rehan13 and a colleague, and is currently maintained by mohd-rehan13 in memory of their collaborator.
             </p>
           </div>
         </div>

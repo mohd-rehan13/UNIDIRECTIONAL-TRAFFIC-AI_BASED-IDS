@@ -1,8 +1,8 @@
 # mohd-rehan13's Unidirectional Traffic AI-Based IDS
 
-> **A Full-Stack Cybersecurity Academic Project** using Machine Learning (Scikit-Learn), Python Flask REST API, React.js (Vite), and SQLite.
+> **A Full-Stack Cybersecurity Academic Project** created collaboratively by mohd-rehan13 and a colleague using Machine Learning (Scikit-Learn), Python Flask REST API, React.js (Vite), and SQLite.
 
-> **Forked and maintained by** <a href="https://github.com/mohd-rehan13" target="_blank">mohd-rehan13</a> **based on** <a href="https://github.com/rohit2944/cyber-threat-detection" target="_blank">rohit2944/cyber-threat-detection</a> **(original, all rights reserved)**.
+> **Created and maintained by** <a href="https://github.com/mohd-rehan13" target="_blank">mohd-rehan13</a> in memory of their collaborator.
 
 ---
 
