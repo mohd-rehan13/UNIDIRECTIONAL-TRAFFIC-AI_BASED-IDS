@@ -37,9 +37,7 @@ const About = () => {
               Attribution
             </p>
             <p style={{ margin: '0', fontSize: '0.9rem', color: 'var(--text-secondary)', lineHeight: '1.5' }}>
-              This project is a derivative work of <a href="https://github.com/rohit2944/cyber-threat-detection" target="_blank" style={{ color: 'var(--accent-cyan)', textDecoration: 'underline' }}>rohit2944/cyber-threat-detection</a> (original, all rights reserved).
-              <br/>
-              Forked and maintained by <a href="https://github.com/mohd-rehan13" target="_blank" style={{ color: 'var(--accent-cyan)', textDecoration: 'underline' }}>@mohd-rehan13</a>.
+              Forked and maintained by <a href="https://github.com/mohd-rehan13" target="_blank" style={{ color: 'var(--accent-cyan)', textDecoration: 'underline' }}>mohd-rehan13</a> based on <a href="https://github.com/rohit2944/cyber-threat-detection" target="_blank" style={{ color: 'var(--accent-cyan)', textDecoration: 'underline' }}>rohit2944/cyber-threat-detection</a> (original, all rights reserved).
             </p>
           </div>
         </div>

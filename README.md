@@ -2,7 +2,7 @@
 
 > **A Full-Stack Cybersecurity Academic Project** using Machine Learning (Scikit-Learn), Python Flask REST API, React.js (Vite), and SQLite.
 
-> **Derivative of** <a href="https://github.com/rohit2944/cyber-threat-detection" target="_blank">rohit2944/cyber-threat-detection</a> (original, all rights reserved). <a href="https://github.com/mohd-rehan13/UNIDIRECTIONAL-TRAFFIC-AI_BASED-IDS" target="_blank">This fork</a> by mohd-rehan13.
+> **Forked and maintained by** <a href="https://github.com/mohd-rehan13" target="_blank">mohd-rehan13</a> **based on** <a href="https://github.com/rohit2944/cyber-threat-detection" target="_blank">rohit2944/cyber-threat-detection</a> **(original, all rights reserved)**.
 
 ---
 
